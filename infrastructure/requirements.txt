@@ -1,0 +1,8 @@
+Django>=3.2
+djangorestframework>=3.12
+gunicorn>=20.1.0
+psycopg2-binary>=2.9.1  # If using PostgreSQL
+boto3>=1.18.0  # AWS SDK for Python
+dj-database-url>=0.5.0  # Simplifies database configuration from environment variables
+whitenoise>=5.3.0  # For serving static files in production
+openai>=0.27.0  # OpenAI Python client library

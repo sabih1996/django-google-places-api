@@ -1,0 +1,24 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+*.env
+
+# Django
+db.sqlite3
+/static/
+*.log
+media/
+
+# AWS CDK
+cdk.out/
+node_modules/
+
+# MacOS
+.DS_Store
+
+# Environment Variables
+.env
